@@ -1,4 +1,4 @@
-# client-server-chat - Exercise 
+# client-server-chat - exercise 
 >The project is maven based which include maven assembly plugin
 >1. maven run clean package 
 >2. JAR with dependencies will be created inside the target
