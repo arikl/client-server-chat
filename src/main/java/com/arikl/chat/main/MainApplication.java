@@ -11,6 +11,9 @@ import java.util.Scanner;
  */
 public class MainApplication {
     public static final String SERVER = "server";
+    public static final int PORT = 12345;
+    public static final String HOST = "127.0.0.1";
+
     public static void main(String[] args) throws IOException {
 
         try {
@@ -21,10 +24,10 @@ public class MainApplication {
             Scanner sc = new Scanner(System.in);
             String type = sc.next();
             if (type.equals(SERVER)) {
-                new Server(12345).run();
+                new Server(PORT).run();
 
             } else {
-                new Client("127.0.0.1", 12345).run();
+                new Client(HOST, PORT).run();
             }
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("ArrayIndexOutOfBoundsException caught");
