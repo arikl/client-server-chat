@@ -1,12 +1,12 @@
 # client-server-chat - exercise 
 >The project is maven based which include maven assembly plugin
->1. maven run clean package 
->2. JAR with dependencies will be created inside the target
 
 ## Setup Installation 
->1. java -jar com.arikl-1.0-SNAPSHOT-jar-with-dependencies.jar
->2. You have the option to choose between client and server
->3. type "server" for running server OR type "client" to be on client mode
+>1. run maven clean and package
+>2. JAR with dependencies will be created in target folder
+>3. java -jar com.arikl-1.0-SNAPSHOT-jar-with-dependencies.jar
+>4. You have the option to choose between client and server
+>5. type "server" for running server OR type "client" to be on client mode
 
 ## Project Structure
 The project is divided into three
