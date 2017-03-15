@@ -17,3 +17,7 @@
 ## Explanation
 > Client will be able to send messages to the server while the server will send the messages to all clients
 > Need to open several clients and notice that server returns messages to the clients
+
+## Disclammer
+>1. The port and host are "hard coded" for running on different machines needs to chenge the code.
+>2. This project is a bsic example of communication between server to multiple client
