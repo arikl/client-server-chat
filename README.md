@@ -8,9 +8,9 @@
 >2. You have the option to choose between client and server
 >3. type "server" for running server OR type "client" to be on client mode
 
-## Code Explanation
+## Project Structure
 The project is divided into three
-1. Client 
+1. Client
 2. Server
 3. Main application to run
 
