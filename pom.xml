@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>java-client-server-socket-arik</groupId>
-    <artifactId>com.taboola</artifactId>
+    <artifactId>com.arikl</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -18,7 +18,7 @@
                    <archive>
                        <manifest>
                            <addClasspath>true</addClasspath>
-                           <mainClass>com.arikl.chat.client.MainClient</mainClass>
+                           <mainClass>com.arikl.chat.main.MainApplication</mainClass>
                        </manifest>
                    </archive>
                    <descriptorRefs>

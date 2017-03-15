@@ -14,22 +14,8 @@ public class MainClient {
 
     public static void main(String[] args) throws IOException {
 
-        try {
-            System.out.println("Please type what are you ?:");
-            System.out.println("server");
-            System.out.println("client");
-            System.out.println("Please choose:");
-            Scanner sc = new Scanner(System.in);
-            String type = sc.next();
-            if (type.equals(SERVER)) {
-                new Server(12345).run();
+        new Client("127.0.0.1", 12345).run();
 
-            } else {
-                new Client("127.0.0.1", 12345).run();
-            }
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("ArrayIndexOutOfBoundsException caught");
-        }
     }
 
 }
